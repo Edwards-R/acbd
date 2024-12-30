@@ -1,10 +1,10 @@
 <template>
-  <FilePicker />
+  <Test />
   <HelloWorld />
 </template>
 
 <script lang="ts" setup>
-import FilePicker from '@/components/FilePicker.vue';
+import Test from '@/components/Test.vue';
 
   //
 </script>

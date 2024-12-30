@@ -26,7 +26,7 @@ function ReadFile(){
         const ws = wb.Sheets[
             wb.SheetNames[0]
         ];
-        rawInputData.value = xlsx.utils.sheet_to_json(ws);
+        rawInputData.value = xlsx.utils.sheet_to_json(ws, {header: 1});
     }
 }
 </script>
